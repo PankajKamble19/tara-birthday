@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Tara 🎉</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Neue', cursive;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #fff;
+      margin-top: 30px;
+      text-shadow: 2px 2px #ff6f61;
+    }
+
+    .card {
+      background: white;
+      border-radius: 25px;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 500px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .wish {
+      font-size: 1.2rem;
+      margin: 15px 0;
+      color: #444;
+    }
+
+    .balloon {
+      position: absolute;
+      bottom: -100px;
+      width: 60px;
+      height: 80px;
+      background: red;
+      border-radius: 50%;
+      animation: float 6s infinite ease-in;
+    }
+
+    .balloon::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 50px;
+      background: #333;
+      top: 80px;
+      left: 50%;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-800px); }
+    }
+
+    .cartoon {
+      width: 150px;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin: 30px;
+      color: white;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎂 Happy 1st Birthday Tara 🎂</h1>
+
+  <img src="taraimage.jpeg" alt="Photo of Tara" style="width: 200px; border-radius: 10px; margin: 20px;">
+
+  <img class="cartoon" src="https://cdn-icons-png.flaticon.com/512/3468/3468379.png" alt="cartoon">
+
+  <div class="card">
+    <p class="wish">🌟 Happy Birthday  Tara! May your life be filled with joy, laughter, and endless love.</p>
+    <p class="wish">🎈 You are a bundle of happiness and today is all about you!</p>
+    <p class="wish">💖 May your smile always shine as bright as today.</p>
+    <p class="wish">🧸 Wishing you a magical childhood full of fun and dreams.</p>
+    <p class="wish">🎁  Happy 1st Birthday!</p>
+    
+  </div>
+
+  <audio controls autoplay style="margin: 20px;">
+    <source src="Birthday.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="balloon" style="left:10%; background:#ff4d4d;"></div>
+  <div class="balloon" style="left:30%; background:#4dd2ff; animation-duration:7s;"></div>
+  <div class="balloon" style="left:50%; background:#ffd24d; animation-duration:5s;"></div>
+  <div class="balloon" style="left:70%; background:#8aff80; animation-duration:6s;"></div>
+  <div class="balloon" style="left:90%; background:#d580ff; animation-duration:8s;"></div>
+
+  <footer>
+    Made with ❤️ for Tara
+  </footer>
+
+</body>
+</html>
